@@ -1,0 +1,50 @@
+/* src/styles.css */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea, select {
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    text-align: left;
+}
+
+.task-item.completed {
+    background-color: #d4edda;
+}
+
+.task-item h3 {
+    margin: 0;
+}
